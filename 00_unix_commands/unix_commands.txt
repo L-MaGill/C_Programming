@@ -1,0 +1,47 @@
+1. mkdir <directory_name> (make directory)
+2. cd <directory_name> (change directory) changes the directory to the specified one.
+3. code <file_name>. creates the file and opens it in a text editor.
+4. ls (list). Shows the content of the current directory.
+5. pwd (print working directory). Shows the path of the current directory.
+6. clear - Clears the terminal window.
+7. gcc <file_name (c source code)> - compile the program.
+8. ./a.out <executable_file> - runs the program.
+9. \ - escape
+10. \* - escape sequence
+11. // one line comment
+12. /* multiline comment
+
+comments document programs and are ignored by the computer. Theyre used to communicate with your team.
+C ignores empty lines. you could do as many lines as you want or put them all on one line ( not reccommended)
+
+lines beginning with # are processed before other lines.
+int main(void) the void in the parathese means the main does not recieve any information. This is the same as leaving the parenthese empty.
+
+{} represents the start and the end of the block
+printf() instructs the computer to preform an action. in this case, it tells the computer to print the string of characters marked by quotation marks
+
+\ escape character
+
+\n means new line
+
+%d conversion specializer
+
+All variables must be defined with a name and a data type before they can be used as a program
+
+variable name:
+-variable names consist of letters, digits and underscores
+-they may not begin with a digit (its better to start with lower case)
+-should be meaningful
+-shouldn't be a keyword
+
+split multiple word variable names with underscores (ex. total_commission)
+- C is case sensitive. A is not the same as A
+
+write a C program that produces the following console output. 
+Name: John Doe 
+Course ID: 2271
+Student ID: 10234
+Student ID - Course ID is: 7963
+
+sum = interger1 + interger2; // assign sum to total 
+
