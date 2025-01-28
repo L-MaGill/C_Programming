@@ -45,3 +45,25 @@ Student ID - Course ID is: 7963
 
 sum = interger1 + interger2; // assign sum to total 
 
+1. git status <check the status of your files>
+2. git add <stage the changes you want to make>
+3. git commit -m "" <Commit your changes with a meaningful message>
+4. git push origin main <push your changes>
+
+
+scanf( "%d", &interger1 ); // read an interger
+puts("Enter the number:"); <the same as printf()>
+
+int age = 10,
+age = 100
+int new_age = age + 5;
+%d
+%c hello %c = "hello"
+scanf("%d", &age);
+
+\"%d\" <quotations>
+
+interger division will only give intergers <ex. 7/4 = 1>
+
+% yields the remainder after division <ex. 5/2 = 2>
+
