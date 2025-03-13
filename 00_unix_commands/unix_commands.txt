@@ -170,3 +170,5 @@ array is from 0 to n-1
 ex: int grades[10]; => would produce 10 numbers 
 
 printf("%d", grades[0]);
+
+how do i submit all?
