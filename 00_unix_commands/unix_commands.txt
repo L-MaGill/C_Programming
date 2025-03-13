@@ -67,3 +67,106 @@ interger division will only give intergers <ex. 7/4 = 1>
 
 % yields the remainder after division <ex. 5/2 = 2>
 
+e or E Display a floating point value in exponential notation
+
+f or F Display a floating point in floating notation
+
+printf("%.3f\n", 123.456789); -> 123.457
+printf("%.2f\n", 123.456789); -> 123.46
+printf("%.1f\n", 123.456789); -> 123.5
+
+char grade = 'A';
+or
+char grade = 65;
+
+conversion specializer %c is used to display character type
+
+if(booleanExpression<condition>)
+{statement(s) - for the true case;
+}
+else
+{
+    statement(s) - for the false case;
+}
+
+You can have more than one else statements
+
+Sentinel Controlled Loop
+
+initialization
+while(condition) {
+    statemnet(s);
+    increments;
+}
+
+++a: Increment a by 1 then use the new value of a in the expression
+a++: Use the current value of a in the expression and then increment by 1
+--b: decrement b by 1 then use the new value in the expression
+b--: Use the current value of b in the expression and then increment by 1
+
+x=4
+y=0
+z=0
+k=2
+
+y+= x++ +1
+z-= 7 +2;
+k*= --z
+
+
+x = 5
+y = 6
+z = -9
+k = -18
+
+
+
+
+int x = 1;
+int sum = 0;
+
+do{
+    sum += x;
+    x++;
+} while(x<=10);
+
+
+For Loop:
+           1             2           4
+for (initialization; condition; increment) {
+    statement(s)
+}
+
+write a for statement that prints:
+20, 14, 8, 2, -4, -10
+
+
+n = a + rand() % b; 
+
+b is the scaling factor which determines the range. The range is equal to [0, b-1]
+
+rand() % (b-a + 1) + A
+
+boooooooooooooo
+
+rand() % 31 - 7
+
+<data type> * name = NULL;
+                   = &smth;
+**Data type of variable and smth need to match
+
+printf("%d", *yPtr);
+
+void sp(int *a_ptr, int*b_ptr) {
+    int temp = *a_ptr;
+    *a_ptr = *b_ptr;
+    *b_ptr = temp;
+}
+
+array is from 0 to n-1
+
+<data type> name[size];
+
+ex: int grades[10]; => would produce 10 numbers 
+
+printf("%d", grades[0]);
